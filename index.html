@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hemaja Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about-me">
+            <h2>About Me</h2>
+            <p>Hello! I am a passionate developer skilled in creating modern and responsive web designs. Welcome to my portfolio!</p>
+        </section>
+        <section id="projects" class="projects">
+            <div class="project">
+                <img src="image1.jpg" alt="">
+            </div>
+            <div class="project">
+                <img src="image2.jpg" alt="">
+            </div>
+            <div class="project">
+                <img src="image3.jpg" alt="">
+            </div>
+        </section>
+        <section id="contact" class="contact-form">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 My Portfolio
+    </footer>
+</body>
+</html>
